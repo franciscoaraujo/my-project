@@ -15,6 +15,7 @@ function AddTasks({ onAddTaskSubmit }) {
             [name]: value,
         }));
     };
+    
 
     const handleAddTask = () => {
         // Verifica se o título e a descrição não estão vazios
