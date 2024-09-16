@@ -16,7 +16,6 @@ function AddTasks({ onAddTaskSubmit }) {
         }));
     };
     
-
     const handleAddTask = () => {
         // Verifica se o título e a descrição não estão vazios
         if (task.title.trim() === '' || task.description.trim() === '') {
